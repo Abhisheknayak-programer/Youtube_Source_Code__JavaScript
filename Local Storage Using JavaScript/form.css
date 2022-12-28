@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f7f7f7;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  width: 50%;
+}
+
+.form h1 {
+  text-align: center;
+  color: crimson;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.form__items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form__items label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.form__items input {
+  padding: 0.5rem;
+  border: none;
+  font-size: 20px;
+}
+
+.btn {
+  border: none;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  width: 200px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.form__btn {
+  background: rgb(242, 106, 134);
+  color: white;
+  width: 150px;
+}
+
+.form__btn:hover {
+  background: crimson;
+}
+
+.outputBox {
+  display: flex;
+  gap: 1rem;
+}
+
+.outputBtn__1 {
+  background: black;
+  color: white;
+  border: 2px solid black;
+}
+
+.outputBtn__1:hover {
+  background: inherit;
+  color: black;
+}
+
+.outputBtn__2 {
+  border: 2px solid black;
+}
+
+.outputBtn__2:hover {
+  background: black;
+  color: red;
+}
+
+.box {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+.box p {
+  font-size: 20px;
+}
